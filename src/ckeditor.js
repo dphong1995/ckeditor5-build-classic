@@ -63,31 +63,44 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			'heading',
 			'|',
 			'bold',
 			'italic',
-			'link',
-			'bulletedList',
-			'numberedList',
-			'|',
+			'heading',
 			'indent',
 			'outdent',
-			'|',
-			'imageUpload',
+			'numberedList',
+			'bulletedList',
 			'blockQuote',
-			'insertTable',
+			'imageUpload',
 			'mediaEmbed',
+			'insertTable',
+			'alignment',
+			'fontColor',
+			'link',
+			'code',
+			'fontBackgroundColor',
+			'codeBlock',
+			'fontFamily',
+			'highlight',
+			'fontSize',
 			'undo',
-			'redo'
+			'redo',
+		]
+	},
+	fontFamily: {
+		options: [
+			'default',
+			'SofiaPro-Regular',
+			'SofiaPro-Bold',
+			'EB Garamond',
 		]
 	},
 	image: {
 		toolbar: [
+			'imageTextAlternative',
 			'imageStyle:full',
-			'imageStyle:side',
-			'|',
-			'imageTextAlternative'
+			'imageStyle:side'
 		]
 	},
 	table: {
