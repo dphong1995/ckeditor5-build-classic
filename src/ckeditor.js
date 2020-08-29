@@ -59,10 +59,6 @@ ClassicEditor.builtinPlugins = [
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
-	ckfinder: {
-		uploadUrl: 'http://localhost:8000/rails/active_storage/direct_uploads',
-	  	blobUrl: 'http://localhost:8000/blobs',
-	},
 	toolbar: {
 		items: [
 			'|',
