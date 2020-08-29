@@ -25,7 +25,7 @@
     "build"
   ],
   "devDependencies": {
-    "@ckeditor/ckeditor5-adapter-ckfinder": "https://github.com/dphong1995/ckeditor5-adapter-ckfinder.git#e3aaf32e3d39ff1675f122cf26b25a7cb29c42cb",
+    "@ckeditor/ckeditor5-adapter-ckfinder": "https://github.com/dphong1995/ckeditor5-adapter-ckfinder.git#f37b0f28d4f094c27479e94fd42a0c65455cc425",
     "@ckeditor/ckeditor5-autoformat": "^22.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^22.0.0",
     "@ckeditor/ckeditor5-block-quote": "^22.0.0",
